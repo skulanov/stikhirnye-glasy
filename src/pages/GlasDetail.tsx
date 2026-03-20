@@ -1,7 +1,9 @@
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { glasyData } from "@/data/glasy";
+import { glasAudio } from "@/data/audioData";
 import Header from "@/components/Header";
+import AudioPlayer from "@/components/AudioPlayer";
 
 const GlasDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -46,18 +48,22 @@ const GlasDetail = () => {
           <p className="text-base leading-relaxed text-foreground">{glas.description}</p>
         </section>
 
-        {/* Content placeholder */}
-        <section
-          className="mb-10 rounded-lg border border-dashed border-border bg-card p-10 text-center animate-fade-up"
-          style={{ animationDelay: "200ms" }}
-        >
-          <p className="text-sm text-muted-foreground">
-            Здесь будет материал по {glas.id} гласу — статья, нотные примеры и аудиозаписи.
-          </p>
-          <p className="mt-1 text-xs text-muted-foreground/60">
-            Загрузите контент, чтобы он появился на этой странице.
-          </p>
-        </section>
+        {/* Audio */}
+        {glasAudio[glas.id] ? (
+          <section className="mb-10 animate-fade-up" style={{ animationDelay: "200ms" }}>
+            <h2 className="mb-4 text-2xl font-bold tracking-tight">Аудиозаписи</h2>
+            <AudioPlayer sections={glasAudio[glas.id]} />
+          </section>
+        ) : (
+          <section
+            className="mb-10 rounded-lg border border-dashed border-border bg-card p-10 text-center animate-fade-up"
+            style={{ animationDelay: "200ms" }}
+          >
+            <p className="text-sm text-muted-foreground">
+              Здесь будет материал по {glas.id} гласу — статья, нотные примеры и аудиозаписи.
+            </p>
+          </section>
+        )}
 
         {/* Navigation */}
         <nav className="flex items-center justify-between border-t pt-6 animate-fade-up" style={{ animationDelay: "300ms" }}>
