@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { glasyData } from "@/data/glasy";
 import { glasAudio } from "@/data/audioData";
+import { glasTheory } from "@/data/glasTheory";
 import Header from "@/components/Header";
 import AudioPlayer from "@/components/AudioPlayer";
 
@@ -60,6 +61,16 @@ const GlasDetail = () => {
             />
           </div>
         </section>
+
+        {/* Theory */}
+        {glasTheory[glas.id] && (
+          <section className="mb-10 animate-fade-up" style={{ animationDelay: "175ms" }}>
+            <h2 className="mb-4 text-2xl font-bold tracking-tight">Описание колен</h2>
+            <div className="prose prose-sm max-w-none text-foreground">
+              {glasTheory[glas.id]}
+            </div>
+          </section>
+        )}
 
         {/* Audio */}
         {glasAudio[glas.id] ? (
