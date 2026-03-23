@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { glasyData } from "@/data/glasy";
 import { glasAudio } from "@/data/audioData";
+import { glasTheory } from "@/data/glasTheory";
 import Header from "@/components/Header";
 import AudioPlayer from "@/components/AudioPlayer";
 
