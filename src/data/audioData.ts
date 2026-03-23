@@ -5,6 +5,7 @@ export interface VoicePart {
 
 export interface AudioSection {
   title: string;
+  description?: string;
   parts: VoicePart[];
 }
 
