@@ -62,6 +62,16 @@ const GlasDetail = () => {
           </div>
         </section>
 
+        {/* Theory */}
+        {glasTheory[glas.id] && (
+          <section className="mb-10 animate-fade-up" style={{ animationDelay: "175ms" }}>
+            <h2 className="mb-4 text-2xl font-bold tracking-tight">Описание колен</h2>
+            <div className="prose prose-sm max-w-none text-foreground">
+              {glasTheory[glas.id]}
+            </div>
+          </section>
+        )}
+
         {/* Audio */}
         {glasAudio[glas.id] ? (
           <section className="mb-10 animate-fade-up" style={{ animationDelay: "200ms" }}>
