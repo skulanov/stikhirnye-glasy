@@ -73,19 +73,10 @@ const GlasDetail = () => {
         )}
 
         {/* Audio */}
-        {glasAudio[glas.id] ? (
+        {glasAudio[glas.id] && (
           <section className="mb-10 animate-fade-up" style={{ animationDelay: "200ms" }}>
             <h2 className="mb-4 text-2xl font-bold tracking-tight">Аудиозаписи</h2>
             <AudioPlayer sections={glasAudio[glas.id]} />
-          </section>
-        ) : (
-          <section
-            className="mb-10 rounded-lg border border-dashed border-border bg-card p-10 text-center animate-fade-up"
-            style={{ animationDelay: "200ms" }}
-          >
-            <p className="text-sm text-muted-foreground">
-              Здесь будет материал по {glas.id} гласу — статья, нотные примеры и аудиозаписи.
-            </p>
           </section>
         )}
 
