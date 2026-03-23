@@ -94,6 +94,16 @@ const AudioPlayer = ({ sections }: AudioPlayerProps) => {
       {sections.map((section) => (
         <div key={section.title}>
           <h3 className="mb-3 text-lg font-semibold text-foreground">{section.title}</h3>
+          {section.description && (
+            <div className="mb-4 rounded-lg border border-border bg-card px-4 py-3 text-sm leading-relaxed text-foreground">
+              {section.description.split("\n\n").map((paragraph, i) => {
+                if (paragraph.startsWith("**") && paragraph.endsWith("**")) {
+                  return <p key={i} className="font-semibold mb-2">{paragraph.replace(/\*\*/g, "")}</p>;
+                }
+                return <p key={i} className={i > 0 ? "mt-2" : ""}>{paragraph}</p>;
+              })}
+            </div>
+          )}
           <div className="space-y-2">
             {section.parts.map((part) => (
               <TrackPlayer key={part.src} label={part.label} src={part.src} />
