@@ -48,6 +48,19 @@ const GlasDetail = () => {
           <p className="text-base leading-relaxed text-foreground">{glas.description}</p>
         </section>
 
+        {/* Sheet Music */}
+        <section className="mb-10 animate-fade-up" style={{ animationDelay: "150ms" }}>
+          <h2 className="mb-4 text-2xl font-bold tracking-tight">Нотный пример</h2>
+          <div className="overflow-hidden rounded-lg border bg-white p-4">
+            <img
+              src={`/images/glas-${glas.id}-notes.png`}
+              alt={`Нотный пример — ${glas.title}`}
+              className="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+        </section>
+
         {/* Audio */}
         {glasAudio[glas.id] ? (
           <section className="mb-10 animate-fade-up" style={{ animationDelay: "200ms" }}>
