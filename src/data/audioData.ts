@@ -64,4 +64,30 @@ export const glasAudio: GlasAudioMap = {
       ],
     },
   ],
+  5: [
+    {
+      title: "Господи воззвах",
+      parts: [
+        { label: "1 голос", src: "/audio/glas-5/gospodi-vozvah-1.m4a" },
+        { label: "2 голос", src: "/audio/glas-5/gospodi-vozvah-2.m4a" },
+        { label: "Бас", src: "/audio/glas-5/gospodi-vozvah-bas.m4a" },
+      ],
+    },
+    {
+      title: "Догматик",
+      parts: [
+        { label: "1 голос", src: "/audio/glas-5/dogmatik-1.m4a" },
+        { label: "2 голос", src: "/audio/glas-5/dogmatik-2.m4a" },
+        { label: "Бас", src: "/audio/glas-5/dogmatik-bas.m4a" },
+      ],
+    },
+    {
+      title: "Запевы",
+      parts: [
+        { label: "1 голос", src: "/audio/glas-5/zapevy-1.m4a" },
+        { label: "2 голос", src: "/audio/glas-5/zapevy-2.m4a" },
+        { label: "Бас", src: "/audio/glas-5/zapevy-bas.m4a" },
+      ],
+    },
+  ],
 };
