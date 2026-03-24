@@ -1,4 +1,4 @@
-import { BookOpen } from "lucide-react";
+
 import { glasyData } from "@/data/glasy";
 import GlasCard from "@/components/GlasCard";
 import Header from "@/components/Header";
