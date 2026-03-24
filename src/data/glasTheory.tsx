@@ -452,7 +452,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
           <strong>Третье колено:</strong>
           <p className="mt-1 text-sm text-muted-foreground italic">Это колено начинается в мажоре.</p>
           <ul className="mt-2 list-disc list-outside space-y-1 pl-5 text-muted-foreground">
-            <li>Речитация на первом аккорде (T3/5 – мажорное тоническое трезвучие)</li>
+            <li>Речитация на первом аккорде (<li>Речитация на первом аккорде (Т3/5 – мажорное тоническое трезвучие)</li> тоническое трезвучие)</li>
             <li>Спуск и остановка на последнем акценте. На этом аккорде может быть речитация</li>
             <li>Спуск перед последним слогом</li>
             <li>Спуск на последний слог</li>
