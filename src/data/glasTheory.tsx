@@ -13,7 +13,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
             <li>На последнем акценте подъем. Если после акцента много слогов, возникает речитация на уровне акцента</li>
             <li>Поступенный спуск к последнему слогу. Заканчивается строка в параллельном миноре</li>
           </ul>
-          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/3<sup>0</sup> dark:border-amber-800 dark:text-amber-200">
+          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/30 dark:border-amber-800 dark:text-amber-200">
             <strong>Внимание!</strong> При разметке стихиры не стоит делать слишком короткими первые мелодические строки – между акцентами должно оставаться хотя бы два слога. В противном случае можно добавить распев между акцентами («Внегда скорбети мне»). Распев будет на слогах «гда» и «скор».
           </p>
         </li>
@@ -99,7 +99,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
             <li>Последний аккорд (последняя нота) распева обязательно повторяется</li>
             <li>Спуск на последнем слоге. Если последний акцент приходится на предпоследний слог, то на последнем слоге будет распев</li>
           </ul>
-          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/3<sup>0</sup> dark:border-amber-800 dark:text-amber-200">
+          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/30 dark:border-amber-800 dark:text-amber-200">
             <strong>Особенности:</strong> При короткой строке не будет первого распева и 1 колено начнётся с речитации
           </p>
         </li>
@@ -129,7 +129,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
             <li>На последнем акценте подъём и остановка</li>
             <li>Спуск на последнем слоге</li>
           </ul>
-          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/3<sup>0</sup> dark:border-amber-800 dark:text-amber-200">
+          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/30 dark:border-amber-800 dark:text-amber-200">
             <strong>Особенности:</strong> в короткой строке будет отсутствовать спуск перед последнем акцентом.
           </p>
         </li>
@@ -149,6 +149,16 @@ export const glasTheory: Record<number, React.ReactNode> = {
         </ul>
       </div>
 
+      <h2 className="mt-10 mb-4 text-2xl font-bold tracking-tight">Запев</h2>
+      <div className="overflow-hidden rounded-lg border bg-white p-4 mb-6">
+        <img
+          src="/images/glas-2-zapev.png"
+          alt="Запев — 2 глас"
+          className="w-full h-auto"
+          loading="lazy"
+        />
+      </div>
+
       <div className="mt-6">
         <p>
           <strong>Запевная строка:</strong>
@@ -164,7 +174,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
           <li>Перед последним слогом спуск на тон</li>
           <li>На последнем слоге ещё один спуск и очень медленный и длинный распев, как в последнем колене гласа</li>
         </ul>
-        <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/3<sup>0</sup> dark:border-amber-800 dark:text-amber-200">
+        <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/30 dark:border-amber-800 dark:text-amber-200">
           <strong>Внимание!</strong> Запевную строку часто путают с последним коленом. Отличаются начальным аккордом и направлением движения мелодии перед последним аккордом!
         </p>
       </div>
@@ -230,7 +240,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
           <li>2 акцента: предпоследний и последний</li>
           <li>На предпоследнем акценте спуск и остановка</li>
         </ul>
-        <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/3<sup>0</sup> dark:border-amber-800 dark:text-amber-200">
+        <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/30 dark:border-amber-800 dark:text-amber-200">
           <strong>Внимание!</strong> Спуск только на акценте, перед ним только речитация!!!
         </p>
         <ul className="mt-2 list-disc list-outside space-y-1 pl-5 text-muted-foreground">
@@ -359,7 +369,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
             <li>Последний акцент — восходящий или распев: подъём к Т3/5<sup>3</sup>. Если после акцента много слогов — речитация на уровне Т3/5<sup>3</sup></li>
             <li>Спуск к последнему слогу. Строка заканчивается на D3/5<sup>5</sup></li>
           </ul>
-          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/3<sup>0</sup> dark:border-amber-800 dark:text-amber-200">
+          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/30 dark:border-amber-800 dark:text-amber-200">
             <strong>Особенности:</strong> Если колено короткое, сначала сокращается движение после первого акцента. Если колено совсем короткое — сокращается и спуск перед последним акцентом. Между акцентами должно оставаться не менее двух слогов.
           </p>
         </li>
@@ -373,7 +383,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
             <li>Сразу после акцента переход на D<sub>7</sub>. Если слогов несколько — речитация на D<sub>7</sub></li>
             <li>Спуск на последнем слоге к D3/5<sup>5</sup></li>
           </ul>
-          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/3<sup>0</sup> dark:border-amber-800 dark:text-amber-200">
+          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/30 dark:border-amber-800 dark:text-amber-200">
             <strong>Особенности:</strong> В коротком колене спуск перед последним акцентом сокращается или отсутствует.
           </p>
         </li>
@@ -388,7 +398,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
             <li>После акцента мелодический спуск на D<sub>7</sub>. На этом аккорде может быть речитация</li>
             <li>Спуск на последнем слоге к D3/5<sup>5</sup></li>
           </ul>
-          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/3<sup>0</sup> dark:border-amber-800 dark:text-amber-200">
+          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/30 dark:border-amber-800 dark:text-amber-200">
             <strong>Особенности:</strong> В коротком колене (когда акценты стоят рядом) предпоследний акцент и речитация между акцентами могут сокращаться — сохраняется только движение к последнему акценту.
           </p>
         </li>
@@ -406,7 +416,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
           <li>Последний акцент — нисходящий: К<sub>6/4</sub> и остановка</li>
           <li>После акцента — D<sub>7</sub> и разрешение в Т3/5<sup>3</sup>. Длинный распев на последних слогах</li>
         </ul>
-        <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/3<sup>0</sup> dark:border-amber-800 dark:text-amber-200">
+        <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/30 dark:border-amber-800 dark:text-amber-200">
           <strong>Отличительная черта 5 гласа:</strong> распев заключительного колена делится поровну по слогам — в отличие от других гласов, где большая часть мелизма приходится на ударный слог.
         </p>
       </div>
@@ -422,7 +432,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
           <li>После предпоследнего акцента подъём. Если между акцентами более двух слогов — на этой высоте возможна речитация</li>
           <li>Последний акцент — восходящий или длинный распев. Распев распределяется поровну по всем слогам (включая заударные). Заканчивается на Т3/5<sup>3</sup></li>
         </ul>
-        <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/3<sup>0</sup> dark:border-amber-800 dark:text-amber-200">
+        <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/30 dark:border-amber-800 dark:text-amber-200">
           <strong>Внимание!</strong> Запевную строку 5 гласа можно спутать с заключительной. Отличие: у запевной строки начальный аккорд D3/5<sup>5</sup> (против Т3/5<sup>3</sup> у заключительной), а предпоследний акцент нисходящий (против восходящего).
         </p>
       </div>
@@ -453,7 +463,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
             <li>Сразу на следующем слоге после акцента мелодический спуск (бас остаётся на той же ноте). На этом аккорде может быть речитация</li>
             <li>Подъём на последнем слоге</li>
           </ul>
-          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/3<sup>0</sup> dark:border-amber-800 dark:text-amber-200">
+          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/30 dark:border-amber-800 dark:text-amber-200">
             <strong>Особенности:</strong> Колено 2а. Появляется тогда, когда после 2 колена должно быть конечное колено. После остановки на последнем акценте все голоса идут вниз. На этом аккорде может быть речитация. На последнем слоге также все голоса идут вниз.
           </p>
         </li>
@@ -519,7 +529,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
             <li>На последнем акценте подъём на Т3/5<sup>3</sup> (тоническое трезвучие в положении терции) и остановка</li>
             <li>На последнем слоге спуск на D3/5<sup>5</sup></li>
           </ul>
-          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/3<sup>0</sup> dark:border-amber-800 dark:text-amber-200">
+          <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/30 dark:border-amber-800 dark:text-amber-200">
             <strong>Особенности:</strong> Если колено короткое, то сначала будет сокращаться спуск-подъём после первого акцента. Если колено совсем короткое, то сокращается и спуск-подъём перед последним акцентом.
           </p>
         </li>
@@ -560,7 +570,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
           <li>Длинный распев на последнем акценте. Распев может подтекстовываться. Большая часть нот приходится на ударный слог. Тональный разбор: отклонение в D-dur (D<sub>7</sub> – D3/5<sup>5</sup> – D3/5<sup>3</sup> – D<sub>7</sub> – <li>Длинный распев на последнем акценте. Распев может подтекстовываться. Большая часть нот приходится на ударный слог. Тональный разбор: отклонение в D-dur (D<sub>7</sub> – D3/5<sup>5</sup> – D3/5<sup>3</sup> – D<sub>7</sub> – Т3/5<sup>5</sup> – D<sub>7</sub>)</li></li>
           <li>Заканчивается на Т3/5<sup>3</sup> (D-dur)</li>
         </ul>
-        <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/3<sup>0</sup> dark:border-amber-800 dark:text-amber-200">
+        <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/30 dark:border-amber-800 dark:text-amber-200">
           <strong>Внимание!</strong> Запевную строку 7 гласа иногда путают с заключительной строкой либо с запевной строкой 3 гласа. Отличия от заключительной строки 7 гласа — в запевной строке нет предварительного подъёма перед предпоследним акцентом. Отличия от запевной строки 3 гласа — другой тон и противоположное направление акцентов.
         </p>
         <p className="mt-3 text-sm text-muted-foreground italic">
@@ -631,7 +641,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
           <li>Предпоследний акцент нисходящий (VI3/5<sup>3</sup>), за слог до него спуск (D3/5<sup>5</sup>). Если между акцентами много слогов, речитация на D3/5<sup>5</sup></li>
           <li>Последний акцент восходящий или распев (Т3/5<sup>3</sup>). В конце запевной строки появляется D<sub>7</sub> тональности VI ступени. Возможен ритмический вариант, в котором D<sub>7</sub> вместо половинки будет целая</li>
         </ul>
-        <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/3<sup>0</sup> dark:border-amber-800 dark:text-amber-200">
+        <p className="mt-3 rounded-md bg-amber-50 border border-amber-200 px-3 py-2 text-sm text-amber-800 dark:bg-amber-950/30 dark:border-amber-800 dark:text-amber-200">
           <strong>Внимание!</strong> Запевы «Слава» и «И ныне» можно начинать с VI ступени («снизу»). В начале строки подъём к тонике и далее как обычно. Другие запевные строки обычно так не поются.
         </p>
       </div>
