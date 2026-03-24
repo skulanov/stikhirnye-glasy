@@ -81,6 +81,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
         </p>
         <p className="mt-3">
           <strong>Запевная строка</strong> имеет два акцента.
+        </p>
         <ul className="mt-2 list-disc list-outside space-y-1 pl-5 text-muted-foreground">
           <li>Тон – D<sub>7</sub> (как и запевная строка 2 гласа). Речитация на этом аккорде</li>
           <li>Предпоследний акцент – нисходящий, за слог до него мелодический спуск. Далее распев (может быть речитация)</li>
