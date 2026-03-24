@@ -20,6 +20,9 @@ const Index = () => {
           <p className="mx-auto max-w-lg text-base leading-relaxed text-subtitle">
             Учебное пособие по русскому православному церковному пению. Теория, нотные примеры и аудиозаписи.
           </p>
+          <p className="mx-auto max-w-lg text-base leading-relaxed text-subtitle mt-1">
+            Татьяна Владимировна Скирская
+          </p>
         </section>
 
         {/* Cards */}
