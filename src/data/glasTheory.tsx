@@ -149,6 +149,16 @@ export const glasTheory: Record<number, React.ReactNode> = {
         </ul>
       </div>
 
+      <h2 className="mt-10 mb-4 text-2xl font-bold tracking-tight">Запев</h2>
+      <div className="overflow-hidden rounded-lg border bg-white p-4 mb-6">
+        <img
+          src="/images/glas-2-zapev.png"
+          alt="Запев — 2 глас"
+          className="w-full h-auto"
+          loading="lazy"
+        />
+      </div>
+
       <div className="mt-6">
         <p>
           <strong>Запевная строка:</strong>
