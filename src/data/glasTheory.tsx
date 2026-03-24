@@ -166,8 +166,9 @@ export const glasTheory: Record<number, React.ReactNode> = {
       </div>
 
       <div className="mt-6">
-        <p className="mt-3 font-medium">Пение стиха (ещё его называют «запевом») 2 гласа:</p>
-        <p className="mt-3 font-medium">Пение стиха (ещё его называют «запевом») 2 гласа:</p>
+        <p>
+          <strong>Запевная строка:</strong>
+        </p>
         <ul className="mt-2 list-disc list-outside space-y-1 pl-5 text-muted-foreground">
           <li>Начинается с речитации на D<sub>7</sub> (с этого же аккорда начинается и первая строка)</li>
           <li>Спуск на тон перед последним акцентом</li>
