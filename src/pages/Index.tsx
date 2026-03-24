@@ -1,4 +1,4 @@
-import { BookOpen } from "lucide-react";
+
 import { glasyData } from "@/data/glasy";
 import GlasCard from "@/components/GlasCard";
 import Header from "@/components/Header";
@@ -11,8 +11,8 @@ const Index = () => {
       <main className="container max-w-3xl py-16">
         {/* Hero */}
         <section className="mb-12 text-center animate-fade-up">
-          <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-secondary">
-            <BookOpen className="h-7 w-7 text-accent" />
+          <div className="mx-auto mb-6 flex items-center justify-center" style={{ width: '50%', maxWidth: '280px' }}>
+            <img src="/images/pstgu-logo.png" alt="ПСТГУ" className="w-full h-auto" />
           </div>
           <h1 className="mb-3 text-4xl font-bold tracking-tight sm:text-5xl" style={{ lineHeight: "1.1" }}>
             Стихирные гласы
