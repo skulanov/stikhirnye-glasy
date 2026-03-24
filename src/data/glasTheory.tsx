@@ -21,7 +21,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
         <li>
           <strong>Второе колено</strong> имеет один мелодический акцент.
           <ul className="mt-2 list-disc list-outside space-y-1 pl-5 text-muted-foreground">
-            <li>Начальный тон Т<sup>3</sup>/5<sup>3</sup>. Первого акцента нет, начинается с речитации.</li>
+            <li>Начальный тон Т3/5<sup>3</sup>. Первого акцента нет, начинается с речитации.</li>
             <li>За слог до акцента – спуск, на D3/5</li>
             <li>На акценте возврат на тонику (предыдущий аккорд)</li>
             <li>После акцента сразу же переход на D7. На этом аккорде может быть речитация</li>
