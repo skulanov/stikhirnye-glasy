@@ -54,7 +54,7 @@ const GlasDetail = () => {
           <h2 className="mb-4 text-2xl font-bold tracking-tight">Нотный пример</h2>
           <div className="overflow-hidden rounded-lg border bg-white p-4">
             <img
-              src={`/images/glas-${glas.id}-notes.png`}
+              src={`${import.meta.env.BASE_URL}images/glas-${glasId}-notes.png`}
               alt={`Нотный пример — ${glas.title}`}
               className="w-full h-auto"
               loading="lazy"
