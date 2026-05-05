@@ -1,5 +1,7 @@
 import React from "react";
 
+const image = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+
 export const glasTheory: Record<number, React.ReactNode> = {
   1: (
     <>
@@ -83,7 +85,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
 
       <h2 className="mt-10 mb-4 text-2xl font-bold tracking-tight">Запев</h2>
       <div className="overflow-hidden rounded-lg border bg-white p-4 mb-6">
-        <img src="/images/glas-1-zapev.png" alt="Запев — 1 глас" className="w-full h-auto" loading="lazy" />
+        <img src={image("images/glas-1-zapev.png")} alt="Запев — 1 глас" className="w-full h-auto" loading="lazy" />
       </div>
 
       <div className="mt-6">
@@ -201,7 +203,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
 
       <h2 className="mt-10 mb-4 text-2xl font-bold tracking-tight">Запев</h2>
       <div className="overflow-hidden rounded-lg border bg-white p-4 mb-6">
-        <img src="/images/glas-2-zapev.png" alt="Запев — 2 глас" className="w-full h-auto" loading="lazy" />
+        <img src={image("images/glas-2-zapev.png")} alt="Запев — 2 глас" className="w-full h-auto" loading="lazy" />
       </div>
 
       <div className="mt-6">
@@ -294,7 +296,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
 
       <h2 className="mt-10 mb-4 text-2xl font-bold tracking-tight">Запев</h2>
       <div className="overflow-hidden rounded-lg border bg-white p-4 mb-6">
-        <img src="/images/glas-3-zapev.png" alt="Запев — 3 глас" className="w-full h-auto" loading="lazy" />
+        <img src={image("images/glas-3-zapev.png")} alt="Запев — 3 глас" className="w-full h-auto" loading="lazy" />
       </div>
 
       <div className="mt-6">
@@ -463,7 +465,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
 
       <h2 className="mt-10 mb-4 text-2xl font-bold tracking-tight">Запев</h2>
       <div className="overflow-hidden rounded-lg border bg-white p-4 mb-6">
-        <img src="/images/zapev-glas-4.png" alt="Запев — 4 глас" className="w-full h-auto" loading="lazy" />
+        <img src={image("images/zapev-glas-4.png")} alt="Запев — 4 глас" className="w-full h-auto" loading="lazy" />
       </div>
 
       <div className="mt-6">
@@ -613,7 +615,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
 
       <h2 className="mt-10 mb-4 text-2xl font-bold tracking-tight">Запев</h2>
       <div className="overflow-hidden rounded-lg border bg-white p-4 mb-6">
-        <img src="/images/glas-5-zapev.png" alt="Запев — 5 глас" className="w-full h-auto" loading="lazy" />
+        <img src={image("images/glas-5-zapev.png")} alt="Запев — 5 глас" className="w-full h-auto" loading="lazy" />
       </div>
 
       <div className="mt-6">
@@ -732,7 +734,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
 
       <h2 className="mt-10 mb-4 text-2xl font-bold tracking-tight">Запев</h2>
       <div className="overflow-hidden rounded-lg border bg-white p-4 mb-6">
-        <img src="/images/glas-6-zapev.png" alt="Запев — 6 глас" className="w-full h-auto" loading="lazy" />
+        <img src={image("images/glas-6-zapev.png")} alt="Запев — 6 глас" className="w-full h-auto" loading="lazy" />
       </div>
 
       <div className="mt-6">
@@ -840,7 +842,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
 
       <h2 className="mt-10 mb-4 text-2xl font-bold tracking-tight">Запев</h2>
       <div className="overflow-hidden rounded-lg border bg-white p-4 mb-6">
-        <img src="/images/glas-7-zapev.png" alt="Запев — 7 глас" className="w-full h-auto" loading="lazy" />
+        <img src={image("images/glas-7-zapev.png")} alt="Запев — 7 глас" className="w-full h-auto" loading="lazy" />
       </div>
 
       <div className="mt-6">
@@ -976,7 +978,7 @@ export const glasTheory: Record<number, React.ReactNode> = {
 
       <h2 className="mt-10 mb-4 text-2xl font-bold tracking-tight">Запев</h2>
       <div className="overflow-hidden rounded-lg border bg-white p-4 mb-6">
-        <img src="/images/glas-8-zapev.png" alt="Запев — 8 глас" className="w-full h-auto" loading="lazy" />
+        <img src={image("images/glas-8-zapev.png")} alt="Запев — 8 глас" className="w-full h-auto" loading="lazy" />
       </div>
 
       <div className="mt-6">
