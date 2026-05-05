@@ -12,7 +12,7 @@ const Index = () => {
         {/* Hero */}
         <section className="mb-12 text-center animate-fade-up">
           <div className="mx-auto mb-6 flex items-center justify-center" style={{ width: '50%', maxWidth: '280px' }}>
-            <img src="/public/images/pstgu-logo.png" alt="ПСТГУ" className="w-full h-auto" />
+            <img src={`${import.meta.env.BASE_URL}images/pstgu-logo.png`} alt="ПСТГУ" className="w-full h-auto" />
           </div>
           <h1 className="mb-3 text-4xl font-bold tracking-tight sm:text-5xl" style={{ lineHeight: "1.1" }}>
             Стихирные гласы
